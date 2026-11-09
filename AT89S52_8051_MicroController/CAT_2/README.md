@@ -36,17 +36,26 @@ The LED is connected to Port 1, Pin 0 (`P1^0`). A custom `delay_ms()` library fu
 Since hardware timers and HAL libraries are not permitted for this task, the software loop acts as the delay mechanism. To achieve a 1 Hz blinking frequency, the LED is toggled and followed by a 500 ms delay.
 
 **PseudoCode:**
+**PseudoCode:**
+
+```text
 1. START
+
 2. LED ← P1^0
+
 3. delay_ms(ms):
-       FOR i ← 0 TO ms-1
-           FOR j ← 0 TO 119
-               NULL
-4. WHILE (1)
-       LED ← ~LED
-       delay_ms(500)
+      FOR i ← 0 TO ms-1
+          FOR j ← 0 TO 119
+              NULL
+
+4. WHILE (1):
+      LED ← ~LED
+      delay_ms(500)
+
 5. REPEAT
+
 6. STOP
+```
 
 ### Why 500 ms? – Mathematical Calculation
 
