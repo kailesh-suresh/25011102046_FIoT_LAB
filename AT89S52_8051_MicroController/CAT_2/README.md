@@ -3,7 +3,7 @@
 | Field                              | Details                                                                                                                                |
 | :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
 | **EXP**                            | CAT2                                                                                                                                   |
-| **DATE**                           | 20/07/2026                                                                                                                             |
+| **DATE**                           | 20/07/2026 **chk note**                                                                                                                            |
 | **TASK NO**                        | 02 **chk observation**                                                                                                                 |
 | **EXP REQUIREMENT**                | Compile a minimal bare-metal C program, program the device, and control an LED by directly accessing the memory-mapped GPIO registers. |
 | **HARDWARE SETUP / PLATFORM USED** | 8051 Development Board, AT89S52 Microcontroller, USBasp Programmer, Keil uVision4.                                                     |
@@ -34,6 +34,19 @@
 The LED is connected to Port 1, Pin 0 (`P1^0`). A custom `delay_ms()` library function uses nested `for` loops to generate a software delay.
 
 Since hardware timers and HAL libraries are not permitted for this task, the software loop acts as the delay mechanism. To achieve a 1 Hz blinking frequency, the LED is toggled and followed by a 500 ms delay.
+
+**PseudoCode:**
+1. START
+2. LED ← P1^0
+3. delay_ms(ms):
+       FOR i ← 0 TO ms-1
+           FOR j ← 0 TO 119
+               NULL
+4. WHILE (1)
+       LED ← ~LED
+       delay_ms(500)
+5. REPEAT
+6. STOP
 
 ### Why 500 ms? – Mathematical Calculation
 
