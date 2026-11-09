@@ -39,7 +39,7 @@ Since hardware timers and HAL libraries are not permitted for this task, the sof
 
 | Field | Details |
 |:---|:---|
-| **EXP** | CAT2 |
+| **EXP Type** | Continuous Assesment Test |
 | **DATE** | 20/07/2026 --> VERIFY AND CHANGE THE DATE |
 | **TASK NO** | 02 |
 | **EXP REQUIREMENT** | Compile a minimal bare-metal C program, program the device, and control an LED by directly accessing the GPIO registers. |
