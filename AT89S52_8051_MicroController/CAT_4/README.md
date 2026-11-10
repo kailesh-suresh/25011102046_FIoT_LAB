@@ -185,7 +185,7 @@ The program is written in Embedded C and compiled with Keil C51 (µVision) for t
 
 Every valid key press was shown on the seven-segment display and executed its LED function: keys 1–4 lit one LED each, keys 5–8 ran the running light, the alternation, the 0–15 binary counter and the all-LED blink, and key 9 and key 0 cleared the LEDs and reset the system.
 
-While the running light pattern was executing, pressing another key had no effect; the new key was acted upon only after the running pattern had advanced to its next check point and completed, which shows that a routine written as a blocking loop cannot be pre-empted and that key response in this design is limited to the instants at which the keypad is re-scanned.
+While the running light pattern was executing, pressing another key had no effect; the pattern ran on to its end and the new key was acted upon only afterwards. The cause is that each pattern is written as a blocking loop which reads the keypad only between its delay steps, every 200 ms in the running light and up to 500 ms in the blink, so a press that begins and ends inside one of those delay windows is never seen and the main loop cannot service the keypad while the pattern is inside a delay. Key response in this design is therefore limited to the instants at which the keypad is re-scanned, and a running pattern can be interrupted only at those instants, never in the middle of a delay.
 
 The LEDs, wired with their anodes on P1.1–P1.4 and a common ground, glowed only dimly, and the multimeter showed the port pin voltage well below 5 V while it was driving an LED, confirming that an 8051 port pin sources only a weak current and sinks far better than it sources.
 
