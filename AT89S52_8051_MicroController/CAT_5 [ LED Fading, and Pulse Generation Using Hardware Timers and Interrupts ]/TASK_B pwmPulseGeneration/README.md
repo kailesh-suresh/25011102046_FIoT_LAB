@@ -182,4 +182,3 @@ With the timer interrupt running every 99.83 µs, P1.0 produces a continuous 1 k
 
 Observing the waveform on the oscilloscope confirms the arithmetic: the period stays fixed at about 1 ms while only the width of the high pulse changes, which is the defining property of PWM — the frequency sets the switching rate and the duty cycle sets the average value. The experiment demonstrates that a timer-driven, non-blocking software time base is enough to control average power to a load without any analog circuitry, and it shows the practical trade-off between duty-cycle resolution, switching frequency and CPU load on an 8-bit microcontroller.
 
-> Replace this paragraph with what you actually saw on the board and on the oscilloscope — the measured period, the measured pulse widths at a few duty settings, and whether the fade looked smooth or stepped.
