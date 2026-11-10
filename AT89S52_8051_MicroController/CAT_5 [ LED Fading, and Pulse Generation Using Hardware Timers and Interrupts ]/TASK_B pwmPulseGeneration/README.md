@@ -26,8 +26,6 @@ The hardware is exactly the same as Task 1 — the same single LED on P1.0 — b
 
 ![Circuit Diagram](circuit_sketch.png)
 
-> `circuit.png` in this folder is the reference schematic for the experiment. The component values and pin assignments are taken from the AMOTECH LABS 8051 Development Board schematic: LED_1 from P1.0 through 1 kΩ (R1) to GND, 11.0592 MHz crystal Y1 with 33 pF load capacitors, and the reset network of 10 kΩ (R13), 10 µF (C3) and the RESET push-button. The panel in the lower left shows the three duty cycles the oscilloscope will display as the fade runs. The ISP header is the standard 10-pin (2x5) pinout that USBASP drives: MOSI on pin 1, VCC on 2, RST on 5, SCK on 7 and MISO on 9, with pin 3 not connected and pins 4, 6, 8 and 10 all being ground returns. Redraw the diagram by hand, or rebuild it in Wokwi / Tinkercad, if your professor expects your own copy.
-
 ### 2. Core Logic / Pseudocode / Code Base
 
 **Working Principle:**
