@@ -6,7 +6,7 @@
 
 **NAME OF EXP:** Human-Machine Interface using Matrix Keypad, LEDs, and Seven-Segment Display
 
-**HARDWARE SETUP / PLATFORM:** 8051 Development Board (AT89S52) + Keil µVision4
+**HARDWARE SETUP / PLATFORM:** 8051 Development Board (AT89S52) + Keil µVision4 , and downloaded with a USBASP USB ISP programmer through the board's 10-pin ISP header.
 
 ---
 

@@ -6,7 +6,7 @@
 | **DATE**                           | 20/07/2026                                                                                                               |
 |                       |                                                                                                                      |
 | **EXP REQUIREMENT**                | Compile a minimal bare-metal C program, program the device, and control an LED by directly accessing the GPIO registers. |
-| **HARDWARE SETUP / PLATFORM USED** | 8051 Development Board (AT89S52 Microcontroller), USBasp Programmer, Keil uVision4.   *[ A USBasp programmer is a USB-based hardware device used to upload compiled programs (firmware) from your computer to a microcontroller.]*                                   |
+| **HARDWARE SETUP / PLATFORM USED** | 8051 Development Board (AT89S52 Microcontroller), USBasp Programmer, Keil uVision4 , and downloaded with a USBASP USB ISP programmer through the board's 10-pin ISP header  *[ A USBasp programmer is a USB-based hardware device used to upload compiled programs (firmware) from your computer to a microcontroller.]*                                   |
 
 **What does it mean by SFR-based I/O access ?**
 

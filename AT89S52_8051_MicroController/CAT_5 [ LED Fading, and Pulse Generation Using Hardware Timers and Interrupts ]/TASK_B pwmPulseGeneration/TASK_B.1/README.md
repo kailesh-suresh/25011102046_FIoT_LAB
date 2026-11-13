@@ -6,7 +6,7 @@
 
 **NAME OF EXP:** Hardware Timer and Interrupt-Based Timing for LED Fading, Pulse Generation, and Stepper Motor Control
 
-**HARDWARE SETUP / PLATFORM:** 8051 Development Board by AMOTECH LABS — AT89S52 microcontroller running at 11.0592 MHz, coded in Keil µVision (C51 compiler) and downloaded with a USBASP USB ISP programmer through the board's 10-pin ISP header. One LED on port pin P1.0, oscilloscope probe on P1.0 to observe the PWM waveform.
+**HARDWARE SETUP / PLATFORM:** 8051 Development Board — AT89S52 microcontroller running at 11.0592 MHz, coded in Keil µVision (C51 compiler) and downloaded with a USBASP USB ISP programmer through the board's 10-pin ISP header + oscilloscope probe on P1.0 to observe the PWM waveform.
 
 ---
 
@@ -16,7 +16,7 @@
 
 The hardware is exactly the same as Task 1 — the same single LED on P1.0 — because software PWM needs no extra component at all. What changes is only the way the pin is driven: instead of toggling once a second, the Timer 0 interrupt now switches P1.0 on and off about a thousand times a second, and it slowly changes the fraction of each cycle that the pin stays on. The circuit therefore demonstrates that brightness control can be produced purely in software from one ordinary digital output pin, with no DAC and no analog parts.
 
-- **Development Board:** 8051 development board by AMOTECH LABS
+- **Development Board:** 8051 development
 - **Microcontroller IC:** AT89S52
 - **GPIO Port:** Port 1 (P1)
 - **GPIO Pin:** P1.0

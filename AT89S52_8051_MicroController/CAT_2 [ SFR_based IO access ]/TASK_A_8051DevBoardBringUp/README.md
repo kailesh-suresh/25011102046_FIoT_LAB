@@ -7,7 +7,7 @@
 | **DATE**                           | 20/07/2026                                                                                                               |
 |                       |                                                                                                                      |
 | **EXP REQUIREMENT**                | Hardware Board Bring-Up |
-| **HARDWARE SETUP / PLATFORM USED** | 8051 Development Board (AT89S52 Microcontroller), USBasp Programmer, Keil uVision4.   *[ A USBasp programmer is a USB-based hardware device used to upload compiled programs (firmware) from your computer to a microcontroller.]*                                   |
+| **HARDWARE SETUP / PLATFORM USED** | 8051 Development Board (AT89S52 Microcontroller) ,Keil uVision4.   *[ A USBasp programmer is a USB-based hardware device used to upload compiled programs (firmware) from your computer to a microcontroller.]*                                   |
 
 ### 1. Hardware Identification
 

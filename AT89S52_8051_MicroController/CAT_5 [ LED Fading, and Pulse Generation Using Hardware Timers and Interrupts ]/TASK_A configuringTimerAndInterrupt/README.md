@@ -6,7 +6,7 @@
 
 **NAME OF EXP:** Hardware Timer and Interrupt-Based Timing for LED Fading, Pulse Generation, and Stepper Motor Control
 
-**HARDWARE SETUP / PLATFORM:** 8051 Development Board by AMOTECH LABS — AT89S52 microcontroller running at 11.0592 MHz, coded in Keil µVision4 (C51 compiler) , and Digital oscilloscope.
+**HARDWARE SETUP / PLATFORM:** 8051 Development Board - AT89S52 microcontroller running at 11.0592 MHz, coded in Keil µVision4 (C51 compiler).
 
 ---
 
@@ -16,7 +16,7 @@
 
 The experiment demonstrates that an on-chip hardware timer, not a software delay loop, can act as the time base of an embedded system. Timer 0 is loaded with a preload value so that it overflows at a fixed interval, and the overflow interrupt toggles an LED that is driven active-high from P1.0. The AT89S52 runs from the on-board 11.0592 MHz crystal (Y1), loaded by two 33 pF capacitors, and that crystal frequency is what fixes the machine-cycle time used in the calculations below. The USBASP programmer is shown connected to the ISP header because it serves double duty here: it downloads the hex file into the chip and it supplies the board's +5 V rail while doing so. The square wave produced on the LED pin is observed on an oscilloscope to confirm the period.
 
-- **Development Board:** 8051 development board by AMOTECH LABS
+- **Development Board:** 8051 development board
 - **Microcontroller IC:** AT89S52
 - **GPIO Port:** Port 1 (P1)
 - **GPIO Pin:** P1.0
