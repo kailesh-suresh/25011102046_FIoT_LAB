@@ -26,9 +26,9 @@
     <ToolsetNumber>0x0</ToolsetNumber>
     <ToolsetName>MCS-51</ToolsetName>
     <TargetOption>
-      <CLK51>11059200</CLK51>
+      <CLK51>33000000</CLK51>
       <OPTTT>
-        <gFlags>1</gFlags>
+        <gFlags>0</gFlags>
         <BeepAtEnd>1</BeepAtEnd>
         <RunSim>1</RunSim>
         <RunTarget>0</RunTarget>
@@ -77,19 +77,7 @@
         <tvExpOptDlg>0</tvExpOptDlg>
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
-      <CpuCode>255</CpuCode>
-      <Books>
-        <Book>
-          <Number>0</Number>
-          <Title>Data Sheet</Title>
-          <Path>DATASHTS\ATMEL\AT89S52_DS.PDF</Path>
-        </Book>
-        <Book>
-          <Number>1</Number>
-          <Title>Instruction Set Manual</Title>
-          <Path>DATASHTS\ATMEL\AT_C51ISM.PDF</Path>
-        </Book>
-      </Books>
+      <CpuCode>0</CpuCode>
       <DebugOpt>
         <uSim>1</uSim>
         <uTrg>0</uTrg>
@@ -128,26 +116,19 @@
         <tIfile></tIfile>
         <pMon></pMon>
       </DebugOpt>
-      <TargetDriverDllRegistry>
-        <SetRegEntry>
-          <Number>0</Number>
-          <Key>DLGDP51</Key>
-          <Name>(98=150,104,493,398,0)(82=-1,-1,-1,-1,0)(83=831,172,1039,287,0)(84=-1,-1,-1,-1,0)(85=-1,-1,-1,-1,0)(3003=-1,-1,-1,-1,0)(91=608,174,818,449,0)(92=-1,-1,-1,-1,0)(94=-1,-1,-1,-1,0)(5023=-1,-1,-1,-1,0)</Name>
-        </SetRegEntry>
-      </TargetDriverDllRegistry>
       <Breakpoint/>
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
       <DebugFlag>
         <trace>0</trace>
-        <periodic>1</periodic>
-        <aLwin>1</aLwin>
-        <aCover>1</aCover>
+        <periodic>0</periodic>
+        <aLwin>0</aLwin>
+        <aCover>0</aCover>
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
         <aPa>0</aPa>
-        <viewmode>1</viewmode>
+        <viewmode>0</viewmode>
         <vrSel>0</vrSel>
         <aSym>0</aSym>
         <aTbox>0</aTbox>
@@ -190,12 +171,12 @@
     <File>
       <GroupNumber>1</GroupNumber>
       <FileNumber>1</FileNumber>
-      <FileType>1</FileType>
+      <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\week5_t2.c</PathWithFileName>
-      <FilenameWithoutPath>week5_t2.c</FilenameWithoutPath>
+      <PathWithFileName>.\STARTUP.A51</PathWithFileName>
+      <FilenameWithoutPath>STARTUP.A51</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -206,8 +187,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\week5_t1.c</PathWithFileName>
-      <FilenameWithoutPath>week5_t1.c</FilenameWithoutPath>
+      <PathWithFileName>.\uart Initialization And Transmission check [ C Source ].c</PathWithFileName>
+      <FilenameWithoutPath>uart Initialization And Transmission check [ C Source ].c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>3</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\UART Echo [ C source ].c</PathWithFileName>
+      <FilenameWithoutPath>UART Echo [ C source ].c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

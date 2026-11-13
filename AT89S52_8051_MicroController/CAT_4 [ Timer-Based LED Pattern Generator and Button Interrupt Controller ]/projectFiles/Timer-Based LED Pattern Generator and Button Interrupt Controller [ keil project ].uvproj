@@ -377,9 +377,14 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>week4_logic.c</FileName>
+              <FileName>STARTUP.A51</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\STARTUP.A51</FilePath>
+            </File>
+            <File>
+              <FileName>Timer-Based LED Pattern Generator and Button Interrupt Controller [ C source ].c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\week4_logic.c</FilePath>
+              <FilePath>.\Timer-Based LED Pattern Generator and Button Interrupt Controller [ C source ].c</FilePath>
             </File>
           </Files>
         </Group>

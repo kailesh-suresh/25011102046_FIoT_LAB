@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>week2</OutputName>
+          <OutputName>week6A_MSV+A</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -233,7 +233,7 @@
               <RCB>
                 <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
-                <Size>0x10000</Size>
+                <Size>0xffff</Size>
               </RCB>
               <RXB>
                 <Type>0</Type>
@@ -382,9 +382,14 @@
               <FilePath>.\STARTUP.A51</FilePath>
             </File>
             <File>
-              <FileName>week2_l.c</FileName>
+              <FileName>uart Initialization And Transmission check [ C Source ].c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\week2_l.c</FilePath>
+              <FilePath>.\uart Initialization And Transmission check [ C Source ].c</FilePath>
+            </File>
+            <File>
+              <FileName>UART Echo [ C source ].c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\UART Echo [ C source ].c</FilePath>
             </File>
           </Files>
         </Group>

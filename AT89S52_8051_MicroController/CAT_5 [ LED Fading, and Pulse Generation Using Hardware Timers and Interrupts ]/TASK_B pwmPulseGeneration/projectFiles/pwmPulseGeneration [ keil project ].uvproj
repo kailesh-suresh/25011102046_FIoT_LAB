@@ -377,14 +377,14 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>week5_t2.c</FileName>
+              <FileName>pwmPulseGeneration [ C Source ].c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\week5_t2.c</FilePath>
+              <FilePath>.\pwmPulseGeneration [ C Source ].c</FilePath>
             </File>
             <File>
-              <FileName>week5_t1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\week5_t1.c</FilePath>
+              <FileName>STARTUP.A51</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\STARTUP.A51</FilePath>
             </File>
           </Files>
         </Group>
