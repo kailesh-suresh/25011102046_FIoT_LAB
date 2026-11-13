@@ -6,7 +6,7 @@
 
 **NAME OF EXP:** Human-Machine Interface using Matrix Keypad, LEDs, and Seven-Segment Display
 
-**HARDWARE SETUP / PLATFORM:** 8051 Development Board (AMOTECH LABS, AT89S52) + Keil µVision
+**HARDWARE SETUP / PLATFORM:** 8051 Development Board (AT89S52) + Keil µVision4
 
 ---
 

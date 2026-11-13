@@ -43,6 +43,9 @@ The LED toggling operation passes through the following layers:
 
 ### Circuit Diagram
 Circuit showing the AT89S52, crystal oscillator, power rails, and LED connected to Port 1, Pin 0.
+
+
+![Circuit Diagram](circuit_sketch.png)
 ---
 
 ### Core Logic / Pseudocode / Code Base
