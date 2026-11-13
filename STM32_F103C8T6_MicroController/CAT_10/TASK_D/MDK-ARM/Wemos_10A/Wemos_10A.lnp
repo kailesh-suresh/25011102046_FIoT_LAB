@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"wemos_10a\startup_stm32f103xb.o"
+"wemos_10a\main.o"
+"wemos_10a\stm32f1xx_it.o"
+"wemos_10a\stm32f1xx_hal_msp.o"
+"wemos_10a\stm32f1xx_hal_gpio_ex.o"
+"wemos_10a\stm32f1xx_hal_uart.o"
+"wemos_10a\stm32f1xx_hal.o"
+"wemos_10a\stm32f1xx_hal_rcc.o"
+"wemos_10a\stm32f1xx_hal_rcc_ex.o"
+"wemos_10a\stm32f1xx_hal_gpio.o"
+"wemos_10a\stm32f1xx_hal_dma.o"
+"wemos_10a\stm32f1xx_hal_cortex.o"
+"wemos_10a\stm32f1xx_hal_pwr.o"
+"wemos_10a\stm32f1xx_hal_flash.o"
+"wemos_10a\stm32f1xx_hal_flash_ex.o"
+"wemos_10a\stm32f1xx_hal_exti.o"
+"wemos_10a\system_stm32f1xx.o"
+--strict --scatter "Wemos_10A\Wemos_10A.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Wemos_10A.map" -o Wemos_10A\Wemos_10A.axf

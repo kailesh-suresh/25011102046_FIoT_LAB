@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"uart+led\startup_stm32f103xb.o"
+"uart+led\main.o"
+"uart+led\stm32f1xx_it.o"
+"uart+led\stm32f1xx_hal_msp.o"
+"uart+led\stm32f1xx_hal_gpio_ex.o"
+"uart+led\stm32f1xx_hal_uart.o"
+"uart+led\stm32f1xx_hal.o"
+"uart+led\stm32f1xx_hal_rcc.o"
+"uart+led\stm32f1xx_hal_rcc_ex.o"
+"uart+led\stm32f1xx_hal_gpio.o"
+"uart+led\stm32f1xx_hal_dma.o"
+"uart+led\stm32f1xx_hal_cortex.o"
+"uart+led\stm32f1xx_hal_pwr.o"
+"uart+led\stm32f1xx_hal_flash.o"
+"uart+led\stm32f1xx_hal_flash_ex.o"
+"uart+led\stm32f1xx_hal_exti.o"
+"uart+led\system_stm32f1xx.o"
+--strict --scatter "uart+led\uart+led.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "uart+led.map" -o uart+led\uart+led.axf

@@ -1,0 +1,6 @@
+task done: 2,4,5
+
+Clarifics : task 5b1,5b2,5b3 , 5C -- on doubt.
+
+ongoing == 13/11 == task 6 task 7 done 
+ , need to update readme and circuit_sketch for 6 and 7 
