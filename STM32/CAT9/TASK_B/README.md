@@ -28,7 +28,6 @@ The experiment implements a UART command interface in which lines typed in a PC 
 
 ![Circuit Diagram](circuit.png)
 
-`circuit.png` is the connection sketch for this task; replace it with your own capture if the submission requires one.
 
 ### 2. Core Logic / Pseudocode / Code Base
 
