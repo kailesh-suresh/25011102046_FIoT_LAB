@@ -4,7 +4,7 @@
 Receive an HTTP request from a client and return a static HTTP response through the ESP8266 modem.
 
 ## DATE
-Not specified
+12/10/26
 
 ## NAME OF EXP
 HTTP Server - STM32–Wemos Wi-Fi Modem Using AT Commands

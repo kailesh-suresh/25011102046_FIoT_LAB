@@ -3,7 +3,7 @@
 | **Field** | **Description** |
 |---|---|
 | **EXP** | CAT12 – Task 1 |
-| **DATE** | Not specified |
+| **DATE** | 14/10/26 |
 | **NAME OF EXP** | On-board LED Bring-Up |
 | **HARDWARE SETUP / PLATFORM** | NUCLEO-F401RB development board, STM32F401RB Cortex-M4 microcontroller, onboard user LED LD2 connected to PA5. STM32CubeMX and Keil MDK-ARM IDE with STM32 HAL. |
 | **TASK NO** | Task 1 |

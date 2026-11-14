@@ -4,7 +4,7 @@
 Configure the ESP8266 Wi-Fi modem as a TCP server using AT commands.
 
 ## DATE
-Not specified
+12/10/26
 
 ## NAME OF EXP
 HTTP Server - STM32–Wemos Wi-Fi Modem Using AT Commands

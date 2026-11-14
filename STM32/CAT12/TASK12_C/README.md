@@ -3,7 +3,7 @@
 | **Field** | **Description** |
 |---|---|
 | **EXP** | CAT12 – Task 3 |
-| **DATE** | Not specified |
+| **DATE** | 14/10/26 |
 | **NAME OF EXP** | Short-Press and Long-Press Detection |
 | **HARDWARE SETUP / PLATFORM** | NUCLEO-F401RB development board, STM32F401RB Cortex-M4 microcontroller, onboard user LED LD2 connected to PA5 and onboard USER pushbutton B1 connected to PC13. STM32CubeMX and Keil MDK-ARM IDE with STM32 HAL. |
 | **TASK NO** | Task 3 |

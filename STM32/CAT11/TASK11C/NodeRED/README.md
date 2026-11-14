@@ -20,5 +20,4 @@ Inject → HTTP Request (GET) → Debug
 ## Expected response
 The supplied STM32 firmware returns a static HTML page with an HTTP `200 OK` status. It does not provide live sensor readings.
 
-## Evidence
-Place screenshots captured during your own demonstration in `evidence/`. No screenshot was present in the supplied archives, so none has been fabricated or added.
+

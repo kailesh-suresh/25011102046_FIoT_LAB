@@ -4,7 +4,7 @@
 Use Node-RED as a second HTTP client to request the STM32–Wemos HTTP server and display the returned response.
 
 ## DATE
-Not specified
+12/10/26
 
 ## NAME OF EXP
 HTTP Server - STM32–Wemos Wi-Fi Modem Using AT Commands
