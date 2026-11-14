@@ -1,0 +1,75 @@
+[
+  {
+    "id": "c11ctab",
+    "type": "tab",
+    "label": "CAT11C Node-RED HTTP Client",
+    "disabled": false,
+    "info": "Node-RED acts as a second HTTP client of the STM32-Wemos ESP8266 HTTP server."
+  },
+  {
+    "id": "c11cinject",
+    "type": "inject",
+    "z": "c11ctab",
+    "name": "Trigger HTTP request",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 150,
+    "y": 100,
+    "wires": [
+      [
+        "c11chttp"
+      ]
+    ]
+  },
+  {
+    "id": "c11chttp",
+    "type": "http request",
+    "z": "c11ctab",
+    "name": "GET STM32 IoT Server",
+    "method": "GET",
+    "ret": "txt",
+    "paytoqs": "ignore",
+    "url": "http://<ESP8266_IP>/",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 390,
+    "y": 100,
+    "wires": [
+      [
+        "c11cdebug"
+      ]
+    ]
+  },
+  {
+    "id": "c11cdebug",
+    "type": "debug",
+    "z": "c11ctab",
+    "name": "STM32 HTTP Response",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 650,
+    "y": 100,
+    "wires": []
+  }
+]

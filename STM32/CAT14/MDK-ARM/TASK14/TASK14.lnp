@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"task14\startup_stm32f103xb.o"
+"task14\main.o"
+"task14\stm32f1xx_it.o"
+"task14\stm32f1xx_hal_msp.o"
+"task14\bme280.o"
+"task14\esplib.o"
+"task14\stm32f1xx_hal_gpio_ex.o"
+"task14\stm32f1xx_hal_i2c.o"
+"task14\stm32f1xx_hal.o"
+"task14\stm32f1xx_hal_rcc.o"
+"task14\stm32f1xx_hal_rcc_ex.o"
+"task14\stm32f1xx_hal_gpio.o"
+"task14\stm32f1xx_hal_dma.o"
+"task14\stm32f1xx_hal_cortex.o"
+"task14\stm32f1xx_hal_pwr.o"
+"task14\stm32f1xx_hal_flash.o"
+"task14\stm32f1xx_hal_flash_ex.o"
+"task14\stm32f1xx_hal_exti.o"
+"task14\stm32f1xx_hal_uart.o"
+"task14\system_stm32f1xx.o"
+--strict --scatter "TASK14\TASK14.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TASK14.map" -o TASK14\TASK14.axf
